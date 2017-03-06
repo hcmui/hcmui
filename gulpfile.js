@@ -39,7 +39,7 @@ gulp.task('build:style', function (){
         ' * Licensed under the <%= pkg.license %> license',
         ' */',
         ''].join('\n');
-    gulp.src('src/style/weui.less', option)
+    gulp.src('src/style/hcmui.less', option)
         .pipe(sourcemaps.init())
         .pipe(less().on('error', function (e) {
             console.error(e.message);
