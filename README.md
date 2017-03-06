@@ -1,5 +1,6 @@
-WeUI 为微信 Web 服务量身设计  
+HCMUI 为HCM Web 服务量身设计
 ====
+Auth:Edward Zheng
 
 [![Build Status](https://travis-ci.org/weui/weui.svg?branch=master)](https://travis-ci.org/weui/weui)
 [![npm version](https://img.shields.io/npm/v/weui.svg)](https://www.npmjs.org/package/weui)
