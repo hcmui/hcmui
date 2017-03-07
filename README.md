@@ -8,7 +8,7 @@ Auth:Edward Zheng
 
 ## 概述
 
-WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
+HCMUI 是一套在weui基础上，延伸定制为HCM原生视觉体验一致的基础样式库，可以令用户的使用感知更加统一。包含`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
 
 ## 手机预览
 
