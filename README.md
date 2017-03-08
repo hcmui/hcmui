@@ -10,6 +10,9 @@ Auth:Edward Zheng
 
 HCMUI 是一套在weui基础上，延伸定制为HCM达成视觉体验一致的基础样式库，可以令用户的使用感知更加统一。包含`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
 
+
+# 以下内容为weui原文
+
 ## 手机预览
 
 ![https://weui.io](https://cloud.githubusercontent.com/assets/4652816/15662614/178efd46-2725-11e6-8952-09d7836e968d.png)
