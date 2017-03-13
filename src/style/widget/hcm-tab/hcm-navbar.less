@@ -1,0 +1,53 @@
+@import "../../base/fn";
+
+.weui-navbar {
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    top: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+
+    &:after {
+        .setBottomLine(#CCCCCC);
+    }
+
+    & + .weui-tab__panel {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+}
+
+.weui-navbar__item {
+    color:@weuiTextColorGray;
+    position: relative;
+    display: block;
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+    transition: 279ms ease-out;
+    -webkit-transition:279ms ease-out;
+    -moz-transition:279ms ease-out;
+    //添加动画效果，统一点击动画速率，279ms，传统下划线高亮显示取消，沿用weui表现形式。
+    .setTapColor();
+
+    &:active {
+        background-color: #EDEDED;
+    }
+
+    &.weui-bar__item_on {
+        color: @weuiBtnDefaultFontColor;
+        background-color: #EAEAEA;
+    }
+
+    &:after {
+        .setRightLine(#CCCCCC);
+    }
+
+    &:last-child {
+        &:after {
+            display: none;
+        }
+    }
+}
