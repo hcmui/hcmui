@@ -338,7 +338,7 @@ body, .page {
     }
     .layers__layer_popout{
         border: 1px solid rgba(203, 203, 203, .5);
-        z-index: 4;
+        z-index: 5;
         &.j_transform{
             transform: @layerBaseTransform translateZ(@layerStartPos);
             @media only screen and (max-width: 320px) {
@@ -352,7 +352,7 @@ body, .page {
     }
     .layers__layer_mask {
         background-color: rgba(0, 0, 0, 0.5);
-        z-index: 3;
+        z-index: 4;
         &.j_transform{
             transform: @layerBaseTransform translateZ(@layerStartPos - @layerSpacing);
             @media only screen and (max-width: 320px) {
@@ -360,13 +360,27 @@ body, .page {
             }
         }
     }
-    .layers__layer_navigation {
-        background-color: rgba(3, 169, 244, 0.5);
-        z-index: 2;
+    .layers__layer_floatbtn{
+        border: 1px solid rgba(3, 169, 244, .5);
+        z-index: 3;
         &.j_transform{
             transform: @layerBaseTransform translateZ(@layerStartPos - 2 * @layerSpacing);
             @media only screen and (max-width: 320px) {
                 transform: @layerBaseTransform translateZ(@layerSmallStartPos - 2 * @layerSmallSpacing);
+            }
+        }
+        &.j_pic{
+            border-color: transparent;
+            background-image: url(images/layers/floatbtn.png);
+        }
+    }
+    .layers__layer_navigation {
+        background-color: rgba(3, 169, 244, 0.5);
+        z-index: 2;
+        &.j_transform{
+            transform: @layerBaseTransform translateZ(@layerStartPos - 3 * @layerSpacing);
+            @media only screen and (max-width: 320px) {
+                transform: @layerBaseTransform translateZ(@layerSmallStartPos - 3 * @layerSmallSpacing);
             }
         }
         &.j_pic{
@@ -378,9 +392,9 @@ body, .page {
         background-color: #FFFFFF;
         z-index: 1;
         &.j_transform{
-            transform: @layerBaseTransform translateZ(@layerStartPos - 3 * @layerSpacing);
+            transform: @layerBaseTransform translateZ(@layerStartPos - 4 * @layerSpacing);
             @media only screen and (max-width: 320px) {
-                transform: @layerBaseTransform translateZ(@layerSmallStartPos - 3 * @layerSmallSpacing);
+                transform: @layerBaseTransform translateZ(@layerSmallStartPos - 4 * @layerSmallSpacing);
             }
         }
         &.j_pic{
