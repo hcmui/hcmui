@@ -88,6 +88,24 @@
     width: 100%;
 }
 
+.weui-picker__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    padding-top: 13px;
+
+    i&,
+    > i {
+        font-size: 24px;
+        color: @weuiTextColorGray;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+    }//加了文字旁icon样式，适用于自身项目，例如可以加下拉箭头
+
 .weui-picker__item {
     padding: 5px 0 4px;
     text-align: center;
@@ -99,4 +117,4 @@
 
 .weui-picker__item_disabled {
     color: @weuiTextColorGray;
-}
+}}
