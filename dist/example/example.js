@@ -177,6 +177,7 @@ $(function () {
             var imgList = [
                 "./images/layers/content.png",
                 "./images/layers/navigation.png",
+                "./images/layers/floatbtn.png",
                 "./images/layers/popout.png",
                 "./images/layers/transparent.gif"
             ];

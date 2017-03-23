@@ -61,7 +61,7 @@ gulp.task('build:style', function (){
 });
 
 gulp.task('build:example:assets', function (){
-    gulp.src('src/example/**/*.?(png|jpg|gif|js)', option)
+    gulp.src('src/example/**/*.?(png|jpg|gif|js|ico)', option)
         .pipe(gulp.dest(dist))
         .pipe(browserSync.reload({stream: true}));
 });
